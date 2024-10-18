@@ -9,8 +9,7 @@ namespace Cinema
 {
     internal class DataBase
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=192.168.97.187,1433;Initial Catalog=cinemaDATA; Integrated Security=True;");
-
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=192.168.21.187,1433;Initial Catalog=cinemaDATA; Integrated Security=True;");
         public void openConnection()
         { 
             if(sqlConnection.State == System.Data.ConnectionState.Closed)
