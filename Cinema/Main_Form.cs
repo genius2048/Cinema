@@ -212,7 +212,7 @@ namespace Cinema
 
         private void Main_Form_Load(object sender, EventArgs e)
         {
-            LoadMovies("понедельник");
+            LoadMovies("Понедельник");
         }
 
         private void AddPanel(string Title, string About, string Other, string Poster, int SessionID)
